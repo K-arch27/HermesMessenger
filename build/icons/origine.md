@@ -1,1 +1,0 @@
-come from https://github.com/sindresorhus/caprine/tree/master/build/icons

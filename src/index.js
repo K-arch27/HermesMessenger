@@ -11,9 +11,9 @@ function createWindow () {
 	resizable: false,
 	frame: false,
 	title: "Hermes Messenger",
-	icon: path.join(__dirname,'assets/icon.png'),
+	icon: path.join(__dirname,'../assets/icon.png'),
 	webPreferences: {
-			preload: path.join(__dirname,'src/browser.js'),
+			preload: path.join(__dirname,'browser.js'),
 			nativeWindowOpen: false,
 			contextIsolation: false,
 			enableRemoteModule: true

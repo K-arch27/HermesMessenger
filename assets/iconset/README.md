@@ -1,0 +1,1 @@
+Based on fbmessenger.svg from https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/

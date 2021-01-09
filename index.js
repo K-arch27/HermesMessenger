@@ -1,4 +1,4 @@
-const { app, BrowserWindow, ipcMain, webFrame} = require('electron');
+const { app, BrowserWindow} = require('electron');
 const path = require("path");
 const fs = require("fs");
 
@@ -8,9 +8,10 @@ function createWindow () {
   const win = new BrowserWindow({
     width: 360,
     height: 720,
-	resizable: true,
-	frame: true,
+	resizable: false,
+	frame: false,
 	title: "Hermes Messenger",
+	icon: path.join(__dirname,'assets/icon.png'),
 	webPreferences: {
 			preload: path.join(__dirname,'src/browser.js'),
 			nativeWindowOpen: false,

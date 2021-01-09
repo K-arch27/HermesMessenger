@@ -14,23 +14,18 @@
   },
   "keywords": [],
   "author": {
-  		"name": "MrBn100ful",
-		"email": "mrbn100ful@neonroot.net",
-		"url": "https://github.com/MrBn100ful/Hermes-Messenger"
+    "name": "MrBn100ful",
+    "email": "mrbn100ful@neonroot.net",
+    "url": "https://github.com/MrBn100ful/Hermes-Messenger"
   },
-  "license": "gpl3",
+  "license": "AGPL-3.0-only",
   "bugs": {
     "url": "https://github.com/MrBn100ful/Hermes-Messenger/issues"
   },
   "homepage": "https://github.com/MrBn100ful/Hermes-Messenger#readme",
   "devDependencies": {
-    "electron": "^11.1.1"
-  },
-  "dependencies": {
-    "electron-viewport": "^1.0.1"
-  },
-  "devDependencies": {
-	"electron-builder": "^22.9.1"
+    "electron": "^11.1.1",
+    "electron-builder": "^22.9.1"
   },
   "build": {
     "linux": {
@@ -38,7 +33,7 @@
         "AppImage",
         "deb"
       ],
-      "icon": "build/icons/",
+      "icon": "assets/iconset/",
       "synopsis": "Facebook Messenger phone app",
       "description": "Hermes Messenger is an unofficial Facebook Messenger app.",
       "category": "Network;Chat"

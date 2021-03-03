@@ -6,7 +6,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "electron .",
-    "dist": "electron-builder  --linux --arm64 && electron-builder  --linux"
+    "dist": "electron-builder  --linux --arm64"
   },
   "repository": {
     "type": "git",

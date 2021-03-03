@@ -1,0 +1,55 @@
+name: hermes-messenger
+version: 0.0.3
+summary: Hermes Messenger is an unofficial Facebook Messenger app.
+description: |
+  Hermes Messenger is a unofficial electron Facebook messenger app made for linux smartphone (eg: librem 5, pinephone)
+  Inspired by Caprine
+
+grade: stable
+confinement: strict
+
+parts:
+  electron-app:
+    plugin: nodejs
+    source: ./
+    node-engine: 14.16.0
+    stage-packages:
+      - libasound2
+      - libgconf2-4
+      - libnotify4
+      - libnspr4
+      - libnss3
+      - libpcre3
+      - libpulse0
+      - libxss1
+      - libxtst6
+      - libappindicator1
+      - libsecret-1-0
+      - libgtk-3-0
+      - libdb5.3
+    build: npm run dist
+    install: |
+      mkdir $SNAPCRAFT_PART_INSTALL/app
+      cd release-builds/*/
+      mv * $SNAPCRAFT_PART_INSTALL/app
+    stage:
+      - -lib/node_modules/*
+      - -usr/share/doc/*
+      - -usr/share/man/*
+      - -share/man/*
+      - -share/doc/*
+      - -CHANGELOG.md
+      - -README.md
+
+apps:
+  qr-code-generator-desktop:
+    command: bin/desktop-launch $SNAP/app/hermes-messenger
+    plugs:
+      - home
+      - desktop
+      - desktop-legacy
+      - wayland
+      - browser-support
+      - network
+      - gsettings
+      - pulseaudio

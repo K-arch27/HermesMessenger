@@ -53,6 +53,3 @@ parts:
     - node/14/stable
     build-packages:
     - unzip
-    stage-packages:
-      - libnss3
-      - libnspr4

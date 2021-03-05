@@ -10,4 +10,4 @@ Inspired by [Caprine](https://github.com/sindresorhus/caprine)
 
 ## Disclaimer
 
-Caprine is a third-party app and is not affiliated with Facebook.
+Hermes Messenger is a third-party app and is not affiliated with Facebook.

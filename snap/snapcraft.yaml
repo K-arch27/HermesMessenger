@@ -6,10 +6,11 @@ description: |
    Hermes Messenger is a unofficial electron Facebook messenger app made for linux smartphone (eg: librem 5, pinephone)
 grade: devel # must be 'stable' to release into candidate/stable channels
 confinement: devmode # use 'strict' once you have the right plugs and slots
+license: GPL3
 
 apps:
-  kohl:
-    hermes-messenger: bin/hermes-messenger
+  hermes-messenger:
+    command: bin/hermes-messenger
 
 parts:
   hermes-messenger:

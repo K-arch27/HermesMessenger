@@ -16,3 +16,4 @@ parts:
   hermes-messenger:
     source: .
     plugin: npm
+    npm-node-version: 14.16.0

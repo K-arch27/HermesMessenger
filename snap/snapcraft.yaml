@@ -1,5 +1,5 @@
 name: 'hermes-messenger'
-base: 'core20'
+base: 'core18'
 version: '0.0.3+git'
 summary: 'Hermes Messenger is an unofficial Facebook Messenger app.' 
 description: |

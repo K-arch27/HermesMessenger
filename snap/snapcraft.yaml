@@ -12,6 +12,7 @@ parts:
   electron-app:
     source: .
     plugin: npm
+    npm-node-version: '14.16.0'
 
     stage-packages:
       - libappindicator1

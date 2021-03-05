@@ -40,7 +40,7 @@ parts:
         npm config set user 0
         npm config set unsafe-perm true
         npm install electron electron-packager
-        npx electron-packager . --overwrite --platform=linux --output=release-build --prune=true
+        npx electron-packager ./ --overwrite --platform=linux --output=release-build --prune=true
         ls -al
         cp -rv ./Hermes-Messenger-* $SNAPCRAFT_PART_INSTALL/Hermes-Messenger
     build-snaps:

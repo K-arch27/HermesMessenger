@@ -1,0 +1,8 @@
+Name=Hermes Messenger
+Exec=hermes-messenger
+Terminal=false
+Type=Application
+Icon=${SNAP}/meta/gui/icon.png
+StartupWMClass=Hermes Messenger
+Comment=Hermes Messenger is an unofficial Facebook Messenger app.
+Categories=Network;Chat;

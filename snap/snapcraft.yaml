@@ -10,7 +10,7 @@ license: GPL-3.0
 
 apps:
   hermes-messenger:
-    extensions: [gnome-3-38]
+    extensions: [gnome-3-34]
     plugs:
     - desktop
     - desktop-legacy

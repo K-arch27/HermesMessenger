@@ -10,10 +10,12 @@ license: GPL3
 
 apps:
   hermes-messenger:
-    command: npm run-script build
+    command: npm start
+    plugs: [network]
 
 parts:
   hermes-messenger:
     source: .
     plugin: npm
     npm-node-version: 14.16.0
+    npm-run: [build]

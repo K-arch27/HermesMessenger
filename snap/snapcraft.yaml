@@ -22,7 +22,6 @@ apps:
     - wayland
     - browser-support
     - network
-    - gsettings
     - audio-playback
     - pulseaudio
     - opengl
@@ -36,8 +35,6 @@ parts:
     source-type: git
     plugin: nil
     override-build: |
-        echo $SNAPCRAFT_PART_INSTALL
-        ls -al
         if [ -n "$http_proxy" ]; then
          export ELECTRON_GET_USE_PROXY=1
          export GLOBAL_AGENT_HTTP_PROXY="${http_proxy}"
@@ -46,7 +43,6 @@ parts:
         npm config set user 0
         npm config set unsafe-perm true
         npm install electron electron-packager electron-builder
-        ls -al
         npx electron-packager ./ --overwrite --platform=linux --output=release-build --prune=true
         cp -rv ./Hermes-Messenger-* $SNAPCRAFT_PART_INSTALL/Hermes-Messenger
     build-snaps:

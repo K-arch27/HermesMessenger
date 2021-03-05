@@ -10,7 +10,7 @@ license: GPL3
 
 apps:
   hermes-messenger:
-    command: bin/hermes-messenger
+    command: hermes-messenger
 
 parts:
   hermes-messenger:

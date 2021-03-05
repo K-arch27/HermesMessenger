@@ -1,6 +1,6 @@
 {
   "name": "Hermes-Messenger",
-  "productName": "Hermes Messenger",
+  "productName": "Hermes-Messenger",
   "version": "0.0.3",
   "description": "Hermes Messenger a unofficial Facebook Messenger client",
   "main": "src/index.js",
@@ -40,5 +40,8 @@
       "description": "Hermes Messenger is an unofficial Facebook Messenger app.",
       "category": "Network;Chat"
     }
+  },
+  "dependencies": {
+    "electron-packager": "^15.2.0"
   }
 }

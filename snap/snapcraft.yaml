@@ -10,7 +10,7 @@ license: GPL3
 
 apps:
   hermes-messenger:
-    command: hermes-messenger
+    command: npm run-script build
 
 parts:
   hermes-messenger:

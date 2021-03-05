@@ -14,6 +14,7 @@ architectures:
 
 apps:
   hermes-messenger:
+    extensions: [gnome-3-34]
     plugs:
     - desktop
     - desktop-legacy

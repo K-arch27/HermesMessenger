@@ -1,7 +1,7 @@
 {
   "name": "Hermes-Messenger",
   "productName": "Hermes-Messenger",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Hermes Messenger a unofficial Facebook Messenger client",
   "main": "src/index.js",
   "scripts": {

@@ -1,11 +1,11 @@
 name: 'hermes-messenger'
 base: 'core18'
-version: '0.0.3+git'
+version: '0.0.4+git'
 summary: 'Hermes Messenger is an unofficial Facebook Messenger app.' 
 description: |
    Hermes Messenger is a unofficial electron Facebook messenger app made for linux smartphone (eg: librem 5, pinephone)
 grade: stable # must be 'stable' to release into candidate/stable channels
-confinement: strict # use 'strict' once you have the right plugs and slots
+confinement: devmode # use 'strict' once you have the right plugs and slots
 license: GPL-3.0
 
 architectures:

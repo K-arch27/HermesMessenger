@@ -1,7 +1,9 @@
 const electron = require('electron');
 const webFrame = electron.webFrame;
 
-webFrame.setZoomFactor(0.8)
+webFrame.setZoomFactor(1.3)
+
+//0.8
 
 document.addEventListener('DOMContentLoaded', async () => {
 	

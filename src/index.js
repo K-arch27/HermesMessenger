@@ -6,10 +6,10 @@ app.disableHardwareAcceleration();
 
 function createWindow () {
   const win = new BrowserWindow({
-    width: 360,
-    height: 720,
+    width: 720,
+    height: 1440,
 	resizable: true,
-	frame: false,
+	frame: true,
 	title: "Hermes Messenger",
 	icon: path.join(__dirname,'../assets/icon.png'),
 	webPreferences: {
@@ -20,7 +20,7 @@ function createWindow () {
 		}
   })
 
-  win.loadURL('https://messenger.com/')
+  win.loadURL('https://www.messenger.com/login/')
 
   win.on('page-title-updated', (evt) => {
     evt.preventDefault();

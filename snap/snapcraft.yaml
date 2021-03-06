@@ -39,6 +39,10 @@ apps:
     command: Hermes-Messenger/Hermes-Messenger
 parts:
   hermes-messenger:
+    override-pull: |
+      snapcraftctl pull
+      snapcraftctl set-version "2.49"
+      snapcraftctl set-grade "devel"
     source: https://github.com/mrbn100ful/hermes-messenger.git
     source-subdir: .
     source-type: git

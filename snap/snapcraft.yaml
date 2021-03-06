@@ -1,5 +1,5 @@
 name: 'hermes-messenger'
-base: 'core18'
+base: 'core20'
 version: '0.0.4+git'
 summary: 'Hermes Messenger is an unofficial Facebook Messenger app.' 
 description: |
@@ -14,19 +14,24 @@ architectures:
 
 apps:
   hermes-messenger:
-    extensions: [gnome-3-34]
+    extensions: [gnome-3-38]
     plugs:
-    - desktop
-    - desktop-legacy
-    - home
-    - x11
-    - wayland
-    - browser-support
-    - gsettings
-    - network
-    - audio-playback
-    - pulseaudio
-    - opengl
+      gnome-3-38-2004:
+        default-provider: gnome-3-38-2004
+        interface: content
+        target: $SNAP/gnome-platform
+      gtk-3-themes:
+        default-provider: gtk-common-themes
+        interface: content
+        target: $SNAP/data-dir/themes
+      icon-themes:
+        default-provider: gtk-common-themes
+        interface: content
+        target: $SNAP/data-dir/icons
+      sound-themes:
+        default-provider: gtk-common-themes
+        interface: content
+        target: $SNAP/data-dir/sounds
     environment:
       TMPDIR: $XDG_RUNTIME_DIR
       LD_LIBRARY_PATH: $SNAP_LIBRARY_PATH:$SNAP/lib:$SNAP/usr/lib:$SNAP/lib/x86_64-linux-gnu:$SNAP/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH:$SNAP/lib:$SNAP/usr/lib:$SNAP/lib/x86_64-linux-gnu:$SNAP/usr/lib/x86_64-linux-gnu
@@ -56,3 +61,4 @@ parts:
     stage-packages:
     - libnss3
     - libnspr4
+    

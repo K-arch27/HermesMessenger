@@ -1,0 +1,7 @@
+data/com.github.mrbn100ful.hermesmessenger.desktop.in
+data/com.github.mrbn100ful.hermesmessenger.appdata.xml.in
+data/com.github.mrbn100ful.hermesmessenger.gschema.xml
+src/hermesmessenger-window.ui
+src/main.c
+src/hermesmessenger-window.c
+

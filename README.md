@@ -1,8 +1,6 @@
 # Hermes Messenger  ![](https://github.com/MrBn100ful/Hermes-Messenger/blob/master/assets/iconset/64x64.png)
 
-[![hermes-messenger](https://snapcraft.io/hermes-messenger/badge.svg)](https://snapcraft.io/hermes-messenger)
-
-Hermes Messenger is a unofficial electron Facebook messenger app made for linux smartphone (eg: librem 5, pinephone)
+Hermes Messenger is a unofficial Gtk WebKit Facebook messenger app made for linux smartphone (eg: librem 5, pinephone)
 
 It's based on the Web version of Fb messenger with some hacks to run properly on a smartphone screen.
 

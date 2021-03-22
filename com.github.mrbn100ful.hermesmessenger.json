@@ -29,7 +29,7 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "file:///home/benjamin/Projets/HermesMessenger"
+                    "url" : "https://github.com/MrBn1OOful/HermesMessenger.git"
                 }
             ]
         }

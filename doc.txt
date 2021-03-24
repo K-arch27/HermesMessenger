@@ -1,0 +1,17 @@
+https://github.com/fanglingsu/vimb/blob/master/src/setting.c
+https://webkitgtk.org/reference/webkit2gtk/stable/WebKitUserContentManager.html
+https://gitlab.gnome.org/GNOME/geary/-/blob/mainline/src/client/web-process/web-process-extension.vala
+https://webkitgtk.org/reference/webkit2gtk/2.8.3/WebKitWebView.html#webkit-web-view-run-javascript
+
+https://blogs.igalia.com/carlosgc/2013/09/10/webkit2gtk-web-process-extensions/#comments
+https://gitlab.gnome.org/GNOME/epiphany/-/blob/master/embed/ephy-embed-shell.c
+
+https://webkitgtk.org/reference/webkit2gtk/stable/WebKitScriptWorld.html#webkit-script-world-get-name
+https://webkitgtk.org/reference/webkit2gtk/stable/WebKitWebView.html#webkit-web-view-run-javascript
+https://wiki.gnome.org/Projects/WebKitGtk/ProgrammingGuide/Cookbook
+https://people.igalia.com/tsaunier/documentation/WebKitGTK/WebKitWebView.html?gi-language=c
+
+
+https://lists.webkit.org/pipermail/webkit-gtk/2016-August/002741.html
+https://lists.webkit.org/pipermail/webkit-gtk/2017-March/002975.html
+https://lists.webkit.org/pipermail/webkit-gtk/2019-March/003460.html
